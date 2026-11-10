@@ -1,0 +1,57 @@
+/*
+for top-level container
+*/
+QMainWindow {
+    background-color: #414042;
+}
+
+QMainWindow QWidget QWidget {
+    background-color: #3D3D3D;
+    border: 1px transparent;
+    border-radius: 3.305px;
+}
+
+/*
+for inputs
+*/
+
+QWidget#InputDirectory {
+    background-color: #444545;
+    color: white;
+    font: 16px "Times New Roman";
+}
+
+QWidget#InputDirectory > QLabel {
+    background: transparent;
+    color: #545554;
+    font: 16px "HYWenHei-85W"
+}
+
+/*
+for status
+*/
+QWidget#statusContainer {
+    background-color: #444545;
+}
+
+QWidget#statusContainer > #statusBox {
+    background-color: red;
+}
+
+QWidget#statusContainer > QLabel {
+    background-color: transparent;
+    font: 12px "HYWenHei-85W";
+    color: #545554;
+}
+
+/*
+for debug console
+*/
+QWidget#debugLog {
+    background-color: black;
+}
+
+QWidget#debugLog > QLabel {
+    background: transparent;
+    font: 10px "Times New Roman";
+}
